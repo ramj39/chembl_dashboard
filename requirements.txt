@@ -1,8 +1,8 @@
 streamlit
 chembl-webresource-client
+pubchempy
 rdkit-pypi
 pandas
-pubchempy
-xlsxwriter
 matplotlib
 seaborn
+xlsxwriter
