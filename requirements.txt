@@ -1,0 +1,8 @@
+streamlit
+chembl-webresource-client
+rdkit-pypi
+pandas
+pubchempy
+xlsxwriter
+matplotlib
+seaborn
