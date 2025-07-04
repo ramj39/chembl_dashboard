@@ -25,6 +25,9 @@ A powerful, interactive Streamlit app for exploring molecular properties, bioact
   - Compute Tanimoto similarity using RDKit
   - Compare against known ChEMBL compounds
   - View and rank similar molecules
+## 🗂 Legacy Scripts
+
+Older versions of the app are stored in the `legacy/` folder for reference. These may contain experimental features or earlier designs.
 
 ---
 
