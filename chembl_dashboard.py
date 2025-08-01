@@ -4,7 +4,7 @@ from rdkit import Chem
 from rdkit.Chem import Draw, AllChem, DataStructs
 import pandas as pd
 import io
-import libXrender
+#import libXrender
 # ChEMBL clients
 molecule_client = new_client.molecule
 activity_client = new_client.activity
