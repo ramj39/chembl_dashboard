@@ -4,10 +4,6 @@ from rdkit import Chem
 from rdkit.Chem import Draw, AllChem, DataStructs
 import pandas as pd
 import io
-from rdkit.Chem import Draw
-
-mol_svg = Draw.MolsToGridImage([mol], useSVG=True)
-st.image(mol_svg)
 
 # ChEMBL clients
 molecule_client = new_client.molecule
@@ -135,6 +131,5 @@ with tab3:
             df_sim = pd.DataFrame(sim_data).sort_values(by="Similarity", ascending=False)
             st.dataframe(df_sim)
 
-        except:
-            st.error("Invalid SMILES. Please check your input.")
-#trigger rebuild
+        except Exception as e:
+            st.error(f"Invalid SMILES. Please check your input. Error: {str(e)}")
